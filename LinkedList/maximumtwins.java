@@ -10,12 +10,12 @@
  */
 class maximumtwins {
 
-    public static ListNode reverse(ListNode head){
-        ListNode p = null;
-        ListNode c = head;
+    public static Node reverse(Node head){
+        Node p = null;
+        Node c = head;
 
         while(c != null){
-            ListNode f = c.next;
+            Node f = c.next;
             c.next = p;
             p = c;
             c = f;
@@ -23,22 +23,22 @@ class maximumtwins {
         return p;
     }
 
-    public int pairSum(ListNode head) {
+    public int pairSum(Node head) {
 
-        ListNode slow = head;
-        ListNode fast = head;
+        Node slow = head;
+        Node fast = head;
 
         while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        ListNode head2 = reverse(slow);
+        Node head2 = reverse(slow);
 
         int max = Integer.MIN_VALUE;
 
-        ListNode i = head;
-        ListNode j = head2;
+        Node i = head;
+        Node j = head2;
 
         while(j != null){
             int sum = i.val + j.val;
