@@ -14,6 +14,8 @@ class maximumtwins {
         Node p = null;
         Node c = head;
 
+
+        
         while(c != null){
             Node f = c.next;
             c.next = p;
