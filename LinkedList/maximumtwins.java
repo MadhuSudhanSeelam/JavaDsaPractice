@@ -13,8 +13,6 @@ class maximumtwins {
     public static Node reverse(Node head){
         Node p = null;
         Node c = head;
-
-
         
         while(c != null){
             Node f = c.next;
