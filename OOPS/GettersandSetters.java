@@ -7,6 +7,7 @@ public class GettersandSetters {
       s1.print();
       s1.GetRoll(20);
       s1.print();
+      
     }
     
 }
