@@ -12,6 +12,7 @@ public class Calculator {
                 break;
             }
             
+            
             System.out.println("Enter two Numbers");
             int n1 = sc.nextInt();
             int n2 = sc.nextInt();
