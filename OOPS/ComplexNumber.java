@@ -21,7 +21,6 @@ public class ComplexNumber{
     }
 }
 
-
 class Complex {
   int x;
   int y;
