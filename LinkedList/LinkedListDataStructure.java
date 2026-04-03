@@ -6,8 +6,6 @@ public class LinkedListDataStructure {
       
       Linkedlist ll = new Linkedlist();
       
-
-      
       /*
       Method we created
       addFirst
