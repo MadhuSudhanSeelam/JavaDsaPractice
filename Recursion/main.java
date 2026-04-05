@@ -11,12 +11,6 @@ class Solution {
         }
     }
 
-
-
-
-
-    
-
     public ArrayList<Integer> subsetSums(int[] arr) {
         ArrayList<Integer> list = new ArrayList<>();
         subset(0, arr, 0, list);
