@@ -8,13 +8,6 @@ public class parnethisis {
       System.out.print(res);
   }
   
-
-
-
-
-
-
-  
     public void helper(int n,int l,int r,String s,List<String> ans) {
         if(r == n) {
           ans.add(s);
