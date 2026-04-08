@@ -21,8 +21,6 @@ class MergeTwoLL {
             else k.next = i;
         return dummy.next;
     }
-
-
     public static void printList(Node head) {
         while (head != null) {
             System.out.print(head.val + " -> ");
