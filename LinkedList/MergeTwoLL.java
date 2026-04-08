@@ -23,9 +23,6 @@ class MergeTwoLL {
     }
 
 
-    
- 
-
     public static void printList(Node head) {
         while (head != null) {
             System.out.print(head.val + " -> ");
