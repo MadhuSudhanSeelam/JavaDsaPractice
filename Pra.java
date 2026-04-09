@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+
+
+
+
+
+
+
+
 public class Pra {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,3 +16,10 @@ public class Pra {
         System.out.println(a+5+" Hi madhu");
     }
 }
+
+
+
+
+
+
+
