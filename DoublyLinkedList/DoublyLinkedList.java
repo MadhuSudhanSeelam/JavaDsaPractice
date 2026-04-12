@@ -10,15 +10,6 @@ class ListNode{
 }
 
 
-
-
-
-
-
-
-
-
-
 public class DoublyLinkedList {
     
 }
