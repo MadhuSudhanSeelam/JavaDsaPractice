@@ -17,9 +17,6 @@ class mergeKList {
         Node j = head2;
         Node d = new Node(-1);
         Node k = d;
-
-        
-
         while (i != null && j != null){
             if(i.val <= j.val){
                 k.next = i;
