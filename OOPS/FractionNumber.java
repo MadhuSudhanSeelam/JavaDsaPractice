@@ -11,8 +11,6 @@ public class FractionNumber {
     }
 }
 
-
-
 class Fraction{
   int num;
   int den;
